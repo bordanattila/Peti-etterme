@@ -1,0 +1,61 @@
+body {
+
+  text-align: center;
+}
+
+.bal {
+  float: left;
+  width: 50%;
+
+  background-color: LightCyan;
+}
+
+.jobb {
+  float: left;
+  width: 50%;
+  background-color: LightBlue;
+}
+
+.etterem {
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.haz {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.nev {
+  font-style: italic;
+}
+
+.hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin-bottom: 40px;
+}
+
+.szoveg {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.szoveg2 {
+  text-align: center;
+
+}
+.hely {
+
+  float: left;
+  padding-left: 30%;
+  max-width: 2%;
+  max-height: 2%;
+}
+.foto {
+  max-width: 20%;
+  max-height: 20%;
+}
+.kep {
+  float: left;
+}
