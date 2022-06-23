@@ -1,2 +1,2 @@
 # Peti-etterme
-attempt to create a webpage for my brother's restaurant
+Creating a web menu fro my borther's restaurant.
