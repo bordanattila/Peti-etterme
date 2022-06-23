@@ -6,7 +6,6 @@ body {
 .bal {
   float: left;
   width: 50%;
-
   background-color: LightCyan;
 }
 
@@ -18,7 +17,7 @@ body {
 
 .etterem {
   text-decoration: underline;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Caveat', cursive;
 }
 
 .haz {
@@ -28,6 +27,8 @@ body {
 
 .nev {
   font-style: italic;
+  flex: 1 1 auto;
+  justify-content: center;
 }
 
 .hr {
@@ -41,8 +42,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+
 .szoveg2 {
   text-align: center;
+  padding-right: 300px;
 
 }
 .hely {
@@ -52,10 +55,26 @@ body {
   max-width: 2%;
   max-height: 2%;
 }
+
 .foto {
   max-width: 20%;
   max-height: 20%;
 }
 .kep {
   float: left;
+}
+
+.eloetel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.euro {
+  
+  justify-content: flex-end;
 }
