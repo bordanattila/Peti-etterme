@@ -1,8 +1,8 @@
 body {
-
+  background-color: LightCyan;
   text-align: center;
 }
-
+/*
 .bal {
   float: left;
   width: 50%;
@@ -13,7 +13,7 @@ body {
   float: left;
   width: 50%;
   background-color: LightBlue;
-}
+}*/
 
 .etterem {
   text-decoration: underline;
@@ -27,8 +27,11 @@ body {
 
 .nev {
   font-style: italic;
-  flex: 1 1 auto;
+  flex: 1 1 1 auto;
   justify-content: center;
+  
+  font-family: 'Indie Flower', cursive, 'The Nautigal', cursive, sans-serif; 
+  font-size: 1em;
 }
 
 .hr {
@@ -46,7 +49,7 @@ body {
 .szoveg2 {
   text-align: center;
   padding-right: 300px;
-
+  
 }
 .hely {
 
@@ -70,11 +73,34 @@ body {
 }
 
 .flexbox {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  
+  display: inline;  
+}
+.show_inline {
+  display: inline;
 }
 .euro {
+  padding-left: 150px;
+}
+.alergy {
+  padding-left: 25px;
+}
+li {
+  list-style-type: none;
+ }
+.button {
+  background-color: transparent;
+  border-color: transparent;
   
-  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    display: block;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
 }
