@@ -1,19 +1,54 @@
 body {
   background-color: LightCyan;
   text-align: center;
+ }
+
+/* * {
+  outline: 3px solid limegreen !important;
+  background: rgba(0, 151,0, 0.1) !important;
+} */
+
+h1 {
+  font-size: 2.5rem;
 }
-/*
-.bal {
+
+h3 {
+  font-size: 2rem;
+}
+
+hr {
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+  margin-bottom: 40px;
+}
+
+span {
+  text-decoration: underline;
+}
+.menu2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.vorspeisen .risher_salat {
+  flex: 0 0 814px;
+  padding: 20px;
+}
+
+/* .left {
   float: left;
   width: 50%;
   background-color: LightCyan;
 }
 
-.jobb {
+.right {
   float: left;
   width: 50%;
   background-color: LightBlue;
-}*/
+} */
 
 .etterem {
   text-decoration: underline;
@@ -25,21 +60,6 @@ body {
   max-height: 20%;
 }
 
-.nev {
-  font-style: italic;
-  flex: 1 1 1 auto;
-  justify-content: center;
-  
-  font-family: 'Indie Flower', cursive, 'The Nautigal', cursive, sans-serif; 
-  font-size: 1em;
-}
-
-.hr {
-  border: dotted 6px;
-  border-bottom: none;
-  width: 4%;
-  margin-bottom: 40px;
-}
 
 .szoveg {
   font-family: 'Montserrat', sans-serif;
@@ -47,16 +67,26 @@ body {
 }
 
 .szoveg2 {
-  text-align: center;
-  padding-right: 300px;
-  
+  display: inline;
+  vertical-align: middle;
+  margin: 0;
 }
-.hely {
 
-  float: left;
-  padding-left: 30%;
-  max-width: 2%;
-  max-height: 2%;
+.hely_img {
+  max-width: 1%;
+  max-height: 1%;
+}
+
+.email_img {
+  
+  max-width: 4rem;
+  max-height: 4rem;
+}
+
+.web_img {
+ 
+  max-width: 1.5rem;
+  max-height: 1.5rem;
 }
 
 .foto {
@@ -72,21 +102,33 @@ body {
   margin-right: auto;
 }
 
-.flexbox {
-  display: inline;  
-}
 .show_inline {
   display: inline;
+  
 }
+
+.nev {
+  font-style: italic;
+  font-family: 'Indie Flower', cursive, 'The Nautigal', cursive, sans-serif; 
+  font-size: 1.5em;
+  text-align: left;
+}
+
 .euro {
-  padding-left: 150px;
+  padding-left: 75px;
+  text-align: right;
+  
 }
+
 .alergy {
   padding-left: 25px;
+  text-align: left;
 }
+
 li {
   list-style-type: none;
  }
+
 .button {
   background-color: transparent;
   border-color: transparent;
@@ -95,12 +137,37 @@ li {
   margin-right: auto;
 }
 
-@media screen and (max-width: 480px) {
-  .menu {
-    display: block;
+.Hauptgericht {
+  background-color: aquamarine;
+}
+
+@media screen and (max-width: 768px) {
+  .menu2 {
+    display: flex;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  
+}
+
+@media screen and (max-width: 990px) {
+  .contact {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+}
+ 
+@media screen and (max-width: 800px) {
+  .etel {
+    display: none;
+  }
+  aside {
+    order: 1;
+    flex: 1;
   }
   
 }
