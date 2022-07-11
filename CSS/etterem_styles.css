@@ -38,6 +38,10 @@ span {
   padding: 20px;
 }
 
+.beilagenänderung {
+  margin: 30px 0 60px 0;
+}
+
 /* .left {
   float: left;
   width: 50%;
@@ -97,6 +101,13 @@ span {
   float: left;
 }
 
+.salat {
+  padding-top: 80px;
+  max-width: 50%;
+  max-height: 50%;
+
+}
+
 .eloetel {
   margin-left: auto;
   margin-right: auto;
@@ -137,37 +148,14 @@ li {
   margin-right: auto;
 }
 
-.Hauptgericht {
-  background-color: aquamarine;
-}
 
-@media screen and (max-width: 768px) {
-  .menu2 {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-}
 
-@media screen and (max-width: 990px) {
-  .contact {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-}
+
+
  
-@media screen and (max-width: 800px) {
-  .etel {
+@media screen and (max-width: 1024px) {
+  .etel, .salat {
     display: none;
-  }
-  aside {
-    order: 1;
-    flex: 1;
   }
   
 }
